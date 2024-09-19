@@ -1,0 +1,70 @@
+---
+layout: default
+title: 01 - Understanding the OSI Model
+---
+
+# Understanding the OSI Model
+
+The OSI (Open Systems Interconnection) Model is a conceptual framework used to understand and standardize the functions of a telecommunication or computing system, regardless of its underlying internal structure and technology. It divides network communication into seven distinct layers.
+
+## OSI Layers
+
+### 1. Physical Layer
+The Physical Layer is responsible for the physical connection between devices. It includes the hardware technologies and devices like cables, switches, and network interface cards (NICs) that transmit raw binary data over physical media.
+
+**Key Functions:**
+- Transmission of raw bit streams
+- Physical medium specification
+
+### 2. Data Link Layer
+The Data Link Layer provides node-to-node data transfer and handles error correction from the Physical Layer. It is responsible for framing, addressing, and detecting errors.
+
+**Key Functions:**
+- Frame creation and recognition
+- Error detection and correction
+- MAC addressing
+
+### 3. Network Layer
+The Network Layer manages the routing of data across different networks. It handles logical addressing, routing, and forwarding of packets from the source to the destination across multiple networks.
+
+**Key Functions:**
+- Logical addressing (IP addresses)
+- Routing and forwarding
+
+### 4. Transport Layer
+The Transport Layer ensures complete data transfer between systems by providing error recovery and flow control. It manages data segmentation, reassembly, and ensures end-to-end communication.
+
+**Key Functions:**
+- Segmentation and reassembly
+- Error detection and recovery
+- Flow control
+
+### 5. Session Layer
+The Session Layer establishes, manages, and terminates sessions between applications. It controls dialog between two systems and coordinates communication.
+
+**Key Functions:**
+- Session establishment, maintenance, and termination
+- Dialog control
+
+### 6. Presentation Layer
+The Presentation Layer translates data between the application layer and the network. It handles data encryption, compression, and translation to ensure that data is in a readable format.
+
+**Key Functions:**
+- Data translation and formatting
+- Encryption and decryption
+- Compression and decompression
+
+### 7. Application Layer
+The Application Layer provides network services directly to end-user applications. It facilitates communication between software applications and ensures proper data exchange.
+
+**Key Functions:**
+- Network services for applications
+- Application protocol support (e.g., HTTP, FTP, SMTP)
+
+## Summary
+
+The OSI Model helps in understanding how different networking components interact and how data is transmitted across a network. By breaking down network communication into these seven layers, it provides a structured approach to troubleshooting and designing network systems.
+
+---
+
+*This is a simple explanation of the OSI model layers for educational purposes.*
