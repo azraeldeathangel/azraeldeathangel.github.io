@@ -4,6 +4,8 @@
 body {
     background-color: #000000; /* Background color black */
     background-image: url('/assets/wallpaper/background.png');
+    background-attachment: fixed; /* Keep the image fixed in place */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
     color: #FFFFFF; /* Text color */
     font-family: 'Space Mono', monospace;
     line-height: 1.6;
