@@ -64,7 +64,3 @@ The Application Layer provides network services directly to end-user application
 ## Summary
 
 The OSI Model helps in understanding how different networking components interact and how data is transmitted across a network. By breaking down network communication into these seven layers, it provides a structured approach to troubleshooting and designing network systems.
-
----
-
-*This is a simple explanation of the OSI model layers for educational purposes.*
