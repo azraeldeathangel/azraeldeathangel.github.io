@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 01 - Understanding the OSI Model
+title: 0x0 - Understanding the OSI Model
 ---
 
 # Understanding the OSI Model
