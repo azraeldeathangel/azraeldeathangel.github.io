@@ -133,6 +133,7 @@ ul li::marker {
 /* Additional responsive adjustments */
 @media only screen and (max-width: 480px) {
     body {
+        background-image: url('/assets/wallpaper/phone.png'); /* Mobile background image */
         padding: 5% 2%; /* Further reduce padding on very small screens */
     }
 
