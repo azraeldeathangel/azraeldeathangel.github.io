@@ -3,6 +3,7 @@
 
 body {
     background-color: #000000; /* Background color black */
+    background-image: url('/assets/wallpaper/background.png');
     background-attachment: fixed; /* Keep the image fixed in place */
     background-repeat: no-repeat; /* Prevent the image from repeating */
     color: #FFFFFF; /* Text color */
@@ -23,9 +24,11 @@ body {
 /* Responsive adjustments */
 @media only screen and (max-width: 768px) {
     body {
-        background-image: url('/assets/wallpaper/phone.png'); /* Mobile background image# */
+        background-image: url('/assets/wallpaper/phone.png'); /* Mobile background image */
         padding: 5% 3%; /* Less padding on small screens */
         max-width: 100%; /* Full width on small screens */
+        background-size: cover; /* Cover the entire background */
+        background-position: center; /* Center the background image */
     }
 
     nav {
