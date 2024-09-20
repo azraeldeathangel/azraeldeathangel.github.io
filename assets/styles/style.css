@@ -29,7 +29,7 @@ body {
         background-repeat: no-repeat; /* Prevent the image from repeating */
         padding: 5% 3%; /* Less padding on small screens */
         max-width: 100%; /* Full width on small screens */
-        background-size: cover; /* Cover the entire background */
+        background-size: contain; /* Cover the entire background */
         background-position: center; /* Center the background image */
     }
 
