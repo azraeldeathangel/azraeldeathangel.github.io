@@ -1,6 +1,6 @@
-# Anubis' Jekyll Site
+# Thanatos' Jekyll Site
 
-Welcome to Anubis' personal website repository. This site is built with Jekyll and serves as a blog and personal information hub. Below is a guide to the project's structure and instructions on how to get started.
+Welcome to Thanatos' personal website repository. This site is built with Jekyll and serves as a blog and personal information hub. Below is a guide to the project's structure and instructions on how to get started.
 
 ## Project Structure
 
@@ -45,7 +45,7 @@ To get started with this Jekyll site, follow these steps:
 2. **Navigate to the Project Directory**
 
    ```bash
-   cd anubis.github.io
+   cd thanatosdeathgod.github.io
    ```
 
 3. **Install Dependencies**
