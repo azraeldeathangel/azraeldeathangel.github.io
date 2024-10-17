@@ -3,7 +3,7 @@
 
 body {
     background-color: #000000; /* Background color black */
-    background-image: url('/assets/wallpaper/background.png');
+    background-image: url('/assets/wallpaper/background.jpg');
     background-attachment: fixed; /* Keep the image fixed in place */
     background-repeat: no-repeat; /* Prevent the image from repeating */
     color: #FFFFFF; /* Text color */
