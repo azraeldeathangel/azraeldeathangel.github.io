@@ -24,7 +24,7 @@ body {
 /* Responsive adjustments */
 @media only screen and (max-width: 768px) {
     body {
-        background-image: url('/assets/wallpaper/phone.png'); /* Mobile background image */
+        background-image: url('/assets/wallpaper/background.jpg'); /* Mobile background image */
         background-attachment: fixed; /* Keep the image fixed in place */
         background-repeat: no-repeat; /* Prevent the image from repeating */
         padding: 5% 3%; /* Less padding on small screens */
