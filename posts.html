@@ -1,0 +1,16 @@
+---
+layout: default
+title: posts
+---
+
+<section>
+    <h4>#feeds</h4>
+    <ul class="blogs">
+        {% for post in site.posts %}
+            <li class="blog-item">
+                <a href="{{ post.url }}" class="blog-link">{{ post.title }}</a>
+                <p>{{ markdownify }}</p>
+            </li>
+        {% endfor %}
+    </ul>
+</section>
